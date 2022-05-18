@@ -1,0 +1,22 @@
+{   
+    "intro":{
+        "titleLineOne": "Bonjour, je m'appelle <span class=\"text-primary font-bold\">LOU</span>",
+        "titleLineTwo": "et je suis <span class=\"text-red-500 font-bold\">Développeur</span> FullStack "
+    },
+    "stack":{
+        "title": "Ma Stack de développement"
+    },
+    "mern": {
+        "title": "J'utilise la stack <span class=\"text-primary font-bold\">MERN</span><br /> dans mes applications web",
+        "content": "L'architecture MERN <span class=\"italic\">(MongoDB / Express / React / Node)</span> permet de construire facilement une architecture à trois niveaux : <span class=\"font-bold\">frontend, backend, base de données en utilisant Javascript</span>, qui est l'un des langages de programmation les plus utilisés dans le développement Web."
+}   ,
+    "aboutMe": {
+        "title": "À propos",
+        "subTitle": "Heureux de vous rencontrer !",
+        "first" : "Je suis Lou Tagliasco — développeur fullstack junior à la <span class=\"font-semibold\">recherche d'une alternance en entreprise</span> afin d'approfondir mes connaissances sur la <span class=\"font-semibold\">Stack MERN</span> et d'avoir une première expérience professionnelle.",
+        "second": "Je suis également disponible en tant que <span class=\"font-semibold\">Freelance</span> si vous avez un <span class=\"font-semibold\">projet de blog, d'e-commerce ou même d'application chat en temps réel...</span> Peu importe l'ampleur, j'aime bien les défis.",
+        "third": "Concernant mon parcours, je suis masseur-kinésithérapeute de formation avec un master en biomécanique.",
+        "fourth":"C'est durant le traitement des données en laboratoire d'analyses du mouvement que mon vieil amour pour l'informatique a refait surface. C'est alors, il y a maintenant 2 ans, que j'ai commencé mon chemin dans le développement web.",
+        "resume": "MON CV"
+    }
+}
