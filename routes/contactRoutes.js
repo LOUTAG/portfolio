@@ -1,6 +1,9 @@
 const nodemailer = require('nodemailer');
 const keys = require('../config/keys');
 
+console.log('KEY : ', keys.gmailID);
+console.log('PASSWORD : ', keys.gmailPassword);
+
 module.exports = (app) => {
   app.post("/api/contact", (req, res) => {
     const name = req.body.name;
