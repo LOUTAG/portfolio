@@ -31,7 +31,7 @@ module.exports = (app) => {
     //cheking
     contactEmail.verify((error)=>{
         if(error){
-            console.log(error);
+            console.log('checking : ', error);
         }else{
             console.log("Ready to Send");
         }
