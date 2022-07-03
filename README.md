@@ -1,5 +1,5 @@
 # PORTEFOLIO : LOU TAGLIASCO
-https://sleepy-bastion-99047.herokuapp.com/
+https://lou-tagliasco.herokuapp.com/
 
 _Voici mon portefolio réalisé avec la stack MERN et Tailwind CSS._
 
