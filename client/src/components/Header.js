@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { changeLanguage } from "../actions";
@@ -9,7 +9,8 @@ import { HiMenu } from "react-icons/hi";
 const Header = ({ languageActif, changeLanguage }) => {
   const translate = require(`../translations/${languageActif}/header.json`);
   const [mobileMenu, setMobileMenu] = useState(false);
-
+  const mobileIconRef=useRef();
+  const mobileNavRef=useRef()
   const menuItems = [
     {
       name: translate.home,
@@ -32,6 +33,18 @@ const Header = ({ languageActif, changeLanguage }) => {
       options: ["fr", "en"],
     },
   ];
+
+  useEffect(()=>{
+    const onBodyClick=(event)=>{
+      if(!mobileNavRef?.current?.contains(event.target) && !mobileIconRef.current.contains(event.target)){
+        setMobileMenu(false);
+      }
+    }
+    if(mobileMenu) return document.body.addEventListener('click', onBodyClick);
+    return ()=>{
+      document.body.removeEventListener('click', onBodyClick);
+    }
+  },[mobileMenu])
 
   const renderMenuItems = () => {
     return menuItems.map((item, index) => {
@@ -93,7 +106,7 @@ const Header = ({ languageActif, changeLanguage }) => {
             <Link to="/">LOU_TAG</Link>
           </h1>
         </div>
-        <div className="menu">
+        <div ref={mobileIconRef} className="menu">
           <ul className="list-none sm:flex sm:flex-row hidden">
             {renderMenuItems()}
           </ul>
@@ -104,7 +117,7 @@ const Header = ({ languageActif, changeLanguage }) => {
           />
         </div>
         {mobileMenu && (
-          <div className="w-full block sm:hidden animate-appear">
+          <div ref={mobileNavRef} className="w-full block sm:hidden animate-appear">
             <ul className="list-none w-full flex flex-col">
               {renderMenuItems()}
             </ul>
