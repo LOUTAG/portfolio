@@ -1,3 +1,4 @@
+/****** NODEMAILER  ******/
 const nodemailer = require('nodemailer');
 const keys = require('../config/keys');
 

@@ -13,7 +13,7 @@
     "aboutMe": {
         "title": "About me",
         "subTitle": "Nice to meet you !",
-        "first" : "I'm Lou Tagliasco — Junior Fullstack Developer who <span class=\"font-semibold\">are looking for an internship in a company</span> in order to improve my knowledge about <span class=\"font-semibold\">MERN Stack</span> and to get a first professional experience.",
+        "first" : "I'm Lou Tagliasco — Junior Fullstack Developer who <span class=\"font-semibold\">are looking for a first professional experience in a company</span> in order to improve my knowledge about <span class=\"font-semibold\">MERN Stack</span> and to meet one of my need : teamwork.",
         "second": "I'm also available as a Freelancer <span class=\"font-semibold\">Freelance</span> if you need to build an app : <span class=\"font-semibold\">ecommerce, blog or even real time chat app...</span> No matter how big or small, I like challenges.",
         "third": "About my background, I'm a physiotherapist with a master's degree in biomechanics.",
         "fourth":"It is during the processing of the data in motion analysis laboratory that my old love for computers came back. It is then, 2 years ago, that I started my path in web development",

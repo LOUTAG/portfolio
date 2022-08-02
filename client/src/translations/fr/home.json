@@ -13,7 +13,7 @@
     "aboutMe": {
         "title": "À propos",
         "subTitle": "Heureux de vous rencontrer !",
-        "first" : "Je suis Lou Tagliasco — développeur fullstack junior à la <span class=\"font-semibold\">recherche d'une alternance en entreprise</span> afin d'approfondir mes connaissances sur la <span class=\"font-semibold\">Stack MERN</span> et d'avoir une première expérience professionnelle.",
+        "first" : "Je suis Lou Tagliasco — développeur fullstack junior à la <span class=\"font-semibold\">recherche d'une première expérience en entreprise</span> afin d'approfondir mes connaissances sur la <span class=\"font-semibold\">Stack MERN</span> et de répondre à un de mes besoins: le travail en équipe.",
         "second": "Je suis également disponible en tant que <span class=\"font-semibold\">Freelance</span> si vous avez un <span class=\"font-semibold\">projet de blog, d'e-commerce ou même d'application chat en temps réel...</span> Peu importe l'ampleur, j'aime bien les défis.",
         "third": "Concernant mon parcours, je suis masseur-kinésithérapeute de formation avec un master en biomécanique.",
         "fourth":"C'est durant le traitement des données en laboratoire d'analyses du mouvement que mon vieil amour pour l'informatique a refait surface. C'est alors, il y a maintenant 2 ans, que j'ai commencé mon chemin dans le développement web.",
